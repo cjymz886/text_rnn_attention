@@ -18,7 +18,7 @@ scikit-learn<br>
 模型RNN+ATTENTION配置的参数在text_model.py中，具体为：<br><br>
 ![image](https://github.com/cjymz886/text_rnn_attention/blob/master/images/config_rnn.png)<br><br>
 模型RNN+ATTENTION大致结构为：<br><br>
-![image](https://github.com/cjymz886/text_rnn_attention/blob/master/images/.png)
+![image](https://github.com/cjymz886/text_rnn_attention/blob/master/images/rnn_attention_model.jpg)
 
 3 数据集
 =
