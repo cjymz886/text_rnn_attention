@@ -50,13 +50,14 @@ python text_predict.py，提供模型的预测<br><br>
 6 训练结果
 =
 运行：python text_train.py<br><br>
-本实验经过6轮的迭代，满足终止条件结束，在global_step=3200时在验证集得到最佳效果96.5%<br><br>
+本实验经过2轮的迭代，满足终止条件结束，在global_step=1500时在验证集得到最佳效果96.8%<br><br>
 ![image](https://github.com/cjymz886/text_rnn_attention/blob/master/images/train_rnn.png)
 
 7 测试结果
 =
 运行：python text_test.py<br><br>
-对测试数据集显示，test_loss=0.13，test_accuracy=95.8%，其中“体育”类测试为100%，整体的precision=recall=F1=96%<br><br>
+对测试数据集显示，test_loss=0.14，test_accuracy=95.8%，其中“体育”类测试为100%，整体的precision=recall=F1=96%;<br>
+而CNN模型的测试结果为：test_loss=0.13，test_accuracy=96.7%，precision=recall=F1=97%<br><br>
 ![image](https://github.com/cjymz886/text_rnn_attention/blob/master/images/test_rnn.png)
 
 8 预测结果
