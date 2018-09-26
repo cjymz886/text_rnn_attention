@@ -13,7 +13,7 @@ scipy<br>
 numpy<br>
 scikit-learn<br>
 
-2 CNN卷积神经网络
+2 RNN循环神经网络+attention机制
 =
 模型RNN+ATTENTION配置的参数在text_model.py中，具体为：<br><br>
 ![image](https://github.com/cjymz886/text_rnn_attention/blob/master/images/config_rnn.png)<br><br>
