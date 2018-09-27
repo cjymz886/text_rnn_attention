@@ -68,9 +68,9 @@ python text_predict.py，提供模型的预测<br><br>
 
 9 对比结论
 =
-在与cnn模型对比中发现，训练中在验证集上准确率96.8%是略优于cnn的，但是在测试集上，并没有cnn模型表现的好；我推测的其中原因是，CNN处理文本的长度为600，而RNN+ATTION处理的文本长度为200，而后者也不能处理太长的文本，文本越长，包含的特征信息越多，所以从整体上来看，我个人觉得CNN模型更适合长文本的分类任务；<br><br>
+在与cnn模型对比中发现，训练中在验证集上准确率96.8%是略优于cnn的，但是在测试集上，并没有cnn模型表现的好；我推测的其中原因是，CNN处理文本的长度为600，而RNN+ATTION处理的文本长度为200，而后者也不能处理太长的文本，文本越长，包含的特征信息越多，所以从整体上来看，我个人觉得CNN模型更适合长文本的分类任务。<br><br>
 
-9 参考
+10 参考
 =
 1. [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)
 2. [gaussic/text-classification-cnn-rnn](https://github.com/gaussic/text-classification-cnn-rnn)
